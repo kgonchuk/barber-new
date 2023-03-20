@@ -33,10 +33,38 @@
                     </li>
                 </ul>
             </nav>
+            <button type="button" class="mobile-menu-open" data-modal-open><svg class="mobile-menu-icon" width="40" height="40" >
+                <use href="./img/symbol-defs.svg#icon-menu" ></use>
+            </svg></button>
+            <div class="tablet-contact-menu">
             <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
             <button type="button" data-modal-open class="header-btn btn">Online-booking</button>
         </div>
-    </header>
+        </div>
+        <div class="backdrop-mobile-menu is-hidden" data-modal>
+            <div class="container mobile-menu-container" >
+            <div class="mobile-menu">
+                
+                    <button type="button" class="mobile-menu-close-btn" data-modal-close ><svg class="mobile-menu-close-icon" width="40" height="40">
+                    <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg></button>
+                <ul class="mobile-menu-nav">
+                    <li class="mobile-menu-nav-item">About</li>
+                    <li class="mobile-menu-nav-item">Services and prices</li>
+                    <li class="mobile-menu-nav-item">Barbers</li>
+                    <li class="mobile-menu-nav-item">Contacts</li>
+                </ul>
+                <a href="tel:+380441111111" class="mobile-menu-tel link">+38 044 111 11 11</a>
+                <button type="button" class="mobile-menu-button btn">Online-booking</button>
+<ul class="mobile-menu-list">
+    <li class="mobile-menu-link link"><a href="">Instagram</a></li>
+    <li class="mobile-menu-link link"><a href="">Youtube</a> </li>
+</ul></div>
+                
+            </div>
+    
+    </div>
+        </header>
     <main>
         <!-- Hero -->
         <section class="hero">
@@ -52,10 +80,7 @@
             <h1 class="hero-title">BarberShop</h1>
             <p class="hero-desc"> We are experts in trendy men’s haircuts.
                 We work quickly, carefully and with style. </p></div></div>
-           
-               
-            
-               
+        
                 
         </section>
         <!-- About -->
@@ -63,8 +88,8 @@
             <div class="container about-container">
                 
             <ul class="about-list">
-            <li class="about-item"><img src="./img/img-1.jpg" alt="barber1" width="270" height="445" ></li>
-            <li class="about-item"><img src="./img/img-2.jpg" alt="barber2" width="270" height="445"></li>            </ul>
+            <li class="about-item"><img src="./img/about-1.jpg" alt="barber1" width="270" height="445" ></li>
+            <li class="about-item"><img src="./img/about-2.jpg" alt="barber2" width="270" height="445"></li>            </ul>
             
             <div class="about-content">
             <p class="about-text subtitle">About</p>
@@ -145,7 +170,7 @@
         </div>
         </section>
         <!-- Our team -->
-        <section class="our-team">
+        <!-- <section class="our-team">
             <div class="container">
             <p class="our-team-text subtitle">For true enjoyers of the atmosphere</p>
             <h2 class="our-teeam-title">Our barbers</h2>
@@ -244,9 +269,9 @@
             </li>
             </ul>
         </div>
-        </section>
+        </section> -->
         <!-- section  gallery-->
-        <section class="gallery">
+        <!-- <section class="gallery">
             <div class="container">
             <p class="gallery-text subtitle">In Latin, "barba" means "beard"</p>
             <h2 class="gallery-visually-hidden"></h2>
@@ -257,9 +282,9 @@
                 <li class="gallery-item"><img src="./img/Rectangle-28.jpg" alt="Gallery-img"width="270px" height="360px"></li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- Section Contacts -->
-        <section class="contacts">
+        <!-- <section class="contacts">
             
             <div class="container">
                 <div class="contacts-container contact-container">
@@ -321,16 +346,16 @@
     </div>
        
     </section>
-    </main>
-    <footer class="footer">
+    </main> -->
+    <!-- <footer class="footer">
         <div class="container footer-content">
         <p class="copyright">&copy;Copyright 2020</p>
         <ul class="footer-list">
             <li class="footer-item"> <a href="" target="_blank" rel="noopener nofollow noreferrer" class="footer-link link">Instagram</a></li>
         <li class="footer-item"> <a href="" target="_blank" rel="noopener nofollow noreferrer" class="footer-link link">Youtube</a></li>
     </ul></div>
-    </footer>
-    <div class="backdrop is-hidden"data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden"data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close><svg>
                 <use href="./img/symbol-defs.svg"></use>
@@ -384,8 +409,9 @@
 
        </form>
         </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>
 
